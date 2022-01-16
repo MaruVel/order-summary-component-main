@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+     --Pale: hsl(225, 100%, 94%);
+     --Bright: hsl(245, 75%, 52%);
+
+    --Very:hsl(225, 100%, 98%);
+    --Desaturated: hsl(224, 23%, 55%);
+    --Dark:hsl(223, 47%, 23%);
+}  
+body{
+    font-family:'RedHatDisplay', sans-serif;
+    font-size: 16px;        
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    padding-top: 4em;
+}
+.container1{
+    background-color:var(--Very);  
+    border-radius: 2%;
+    width: 50%;
+    margin: auto;
+    max-width: 400px;
+    
+   
+}
+.icon{
+    width: 100%;
+    border-radius: 2% 2% 0% 0%;
+}
+.container2{
+    padding: 8%;
+}
+h1{
+    text-align: center;
+    padding-bottom: .4em;
+}
+p{
+    text-align: center;
+    
+}
+.container3{     
+    display: inline-flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding-left: .5em;
+}
+.containeri p:last-child{
+    display: inline-flex;
+    text-decoration:underline;
+    color: var(--Dark);
+    float: right;
+    margin-top: 15px;
+}
+li:first-child{
+    font-weight: bold;    
+}
+.containeri{
+background-color: hsl(226, 103%, 96%);
+padding: 1em;
+margin: 1em;
+border-radius: 2%;
+}
+
+h2{
+    text-align: center;
+    color:var(--Very) ;
+    font-size: 15px;
+    padding: 1em;
+    background-color: var(--Bright);
+    margin-bottom: 1.5em;    
+}
